@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Application</title>
+	<link rel = "stylesheet" href = "./main.css">
+</head>
+<body>
+	<header>
+		<h1>Contacts</h1>
+		<h2>Add a contact:</h2>
+	</header>
+	<main>
+		<form>
+			<label>First name</label><br>
+			<input type="text" name="first-name" id="first-name"><br><br>
+			<label>Last name</label><br>
+			<input type="text" name="last-name" id="last-name"><br><br>
+			<label>Phone number</label><br>
+			<input type="text" name="phone" id="phone"><br><br>
+			<label>Street</label><br>
+			<input type="text" name="street" id="street"><br><br>
+			<label>City</label><br>
+			<input type="text" name="city" id="city"><br><br>
+			<label>State</label><br>
+			<input type="text" name="state" id="state"><br><br>	
+		</form>
+			<button id="add-contact" type="submit" name="add">Add</button>
+		<section class="contacts">
+				<h2>Contacts:</h2>
+				<ul id="contact-list"></ul>
+		</section>
+		<section class="contact-info" >
+				<p id="contact-detail"></p>
+		</section>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./model.js"></script>
+	<script type="text/javascript" src="./view.js"></script>
+	<script type="text/javascript" src="./controller.js"></script>
+</body>
+</html>

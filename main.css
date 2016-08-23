@@ -1,0 +1,27 @@
+body{
+	font-family: 'Roboto', helvetica, sans-serif;
+    padding-left:20px;
+}
+
+body *{
+	box-sizing: border-box;
+}
+
+#add-contact{
+	background: gray;
+    border: 2px solid black;
+    padding: 15px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 18px;
+    height: auto;
+}
+
+input[type="text"]{
+	width:500px;
+}
+.contact-info{
+	position: absolute;
+	display: block;
+	left: 800;
+}
